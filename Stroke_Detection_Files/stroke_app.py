@@ -123,7 +123,7 @@ TRAINED_FEATURES = ['FP1_approx_entropy', 'FP1_alpha_beta_ratio', 'FP2_hjorth_ac
        'CPZ_wavelet_coeff_std_level_3', 'CPZ_wavelet_coeff_std_level_4']
 
 # Load pre-trained model
-PRE_TRAINED_MODEL = joblib.load(r"D:\Stroke_Detection_Files\best_rf_pipeline_model.pkl")
+PRE_TRAINED_MODEL = joblib.load("Stroke_Detection_Files/best_rf_pipeline_model.pkl")
 
 def setup_theme():
     """Setup dynamic theming"""
